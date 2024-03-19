@@ -39,8 +39,6 @@ const Mainpage = ( onCancel ) => {
     setSearchTerm(e.target.value);
     handlesearch()
   }
-
-
   const [showDeletePopup, setShowDeletePopup] = useState(false);
 
 

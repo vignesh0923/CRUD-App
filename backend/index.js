@@ -23,10 +23,9 @@ app.get("/hello", (req, res) => {
     if (error) {
       console.log(error);
     }
-    console.log(result)
-    res.send(result)
+    console.log(result);
+    res.send(result);
   });
-  
 });
 
 app.get("/", (req, res) => {

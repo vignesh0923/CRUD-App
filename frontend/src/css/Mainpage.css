@@ -63,6 +63,35 @@ table {
   margin-top: 4vw;
 }
 
+@media (max-width: 380px) {
+  h3{
+    text-wrap: nowrap;
+  }
+
+  .container .searchbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+ .maintable td{
+    padding: 5px 10px 10px 5px;
+    text-wrap: nowrap;
+  }
+
+  .container {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 200%;
+  }
+
+  .maintable{
+    margin-top: 50px;
+  }
+
+}
+
 /* p{
   color: #000;
 text-align: center;
